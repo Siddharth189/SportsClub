@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    display: flex;
+    background-image: url('https://images.unsplash.com/photo-1624303262936-8a3fbb967446?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+} */
+
+.container img{
+    position: sticky;
+    display: flex;
+    height: 100vh;
+    width: 65vw;
+    margin: auto;
+}
+.login{
+    color: white;
+    position: absolute;
+    width: 35vw;
+    height: 55vh;
+    text-align: center;
+    margin-top: -80vh;
+    margin-left: 45vw;
+    box-shadow: 5px 10px 25px;
+}
+
+.login h2{
+    margin: 2vw;
+    font-size: 3vw;
+    letter-spacing: .2vw;
+}
+
+input{
+    /* border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove; */
+    border: none;
+    border-color: transparent;
+    font-size: 1vw;
+    padding: .5rem;
+    border-radius: 16px;
+    border-style: none;
+    margin: .5rem;
+    
+}
+input:focus {
+    outline: none;
+  }
+  #email{
+      margin-left: 1.4rem;
+  }
+  #btn{
+      margin: 1rem;
+      border-radius: 20%;
+      padding: .2rem;
+      background: none;
+      font-size: 1.2vw;
+      color: rgb(224, 248, 10);
+      cursor: pointer;
+  }
+  #btn:hover{
+      opacity: .5;
+      border-style: hidden;
+  }
+  a{
+      margin: .5rem;
+      padding: 1rem;
+      color: white;
+      text-decoration: none;
+  }
+  a{
+	  font-size: medium;
+	  color: blue;
+  }
